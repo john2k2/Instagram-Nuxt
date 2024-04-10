@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "nombre": "valdanisa",
+    "descripcion": "descripcion post 1",
+    "imagen": "svg/asset 20.jpeg",
+    "avatar": "svg/asset 2.jpeg",
+    "fecha": "2021-01-01",
+    "likes": 100,
+    "comentarios": [
+      {
+        "id": 1,
+        "nombre": "comentario1",
+        "avatar": "svg/asset 6.jpeg",
+        "descripcion": "descripcion comentario 1",
+        "fecha": "2021-01-01",
+        "likes": 10
+      },
+      {
+        "id": 2,
+        "nombre": "comentario2",
+        "avatar": "svg/asset 7.jpeg",
+        "descripcion": "descripcion comentario 2",
+        "fecha": "2021-01-01",
+        "likes": 20
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "argentovich",
+    "descripcion": "descripcion post 2",
+    "imagen": "svg/asset 16.jpeg",
+    "avatar": "svg/asset 3.jpeg",
+    "fecha": "2021-01-01",
+    "likes": 200,
+    "comentarios": [
+      {
+        "id": 1,
+        "nombre": "comentario1",
+        "avatar": "svg/asset 4.jpeg",
+        "descripcion": "descripcion comentario 1",
+        "fecha": "2021-01-01",
+        "likes": 10
+      },
+      {
+        "id": 2,
+        "nombre": "comentario2",
+        "avatar": "svg/asset 5.jpeg",
+        "descripcion": "descripcion comentario 2",
+        "fecha": "2021-01-01",
+        "likes": 20
+      }
+    ]
+  }
+]
