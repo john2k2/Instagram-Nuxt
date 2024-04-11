@@ -15,10 +15,10 @@ import Post from "@/photos-data";
         </div>
         <div class="flex">
           <img :src="insta.imagen" alt="post" class="object-cover w-full" />
-          <h2 class="text-sm text-red-500">{{ insta.usuario }}</h2>
+          <h2 class="text-sm">{{ insta.usuario }}</h2>
         </div>
       </div>
-      <div class="px-2 mx-auto py-4 grid grid-cols-10 gap-x-2">
+      <div class="px-3 mx-auto py-4 grid grid-cols-10 gap-x-2">
         <div class="flex gap-x-4 col-span-8">
           <span class="pi pi-heart" style="font-size: 1.5rem; color: white"></span>
           <span class="pi pi-comment" style="font-size: 1.5rem; color: white"></span>

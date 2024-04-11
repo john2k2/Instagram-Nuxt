@@ -8,3 +8,19 @@
   box-sizing: border-box;
   background-color: black;
 }
+
+@font-face {
+  font-family: "Dmsans";
+  src: url("/assets/fonts/DM-Sans-Regular.woff2") format("woff2"),
+    url("/assets/fonts/DM-Sans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "openSans";
+  src: url("/assets/fonts/OpenSans_VariableFont_wdth_wght.woff2") format("woff2"),
+    url("/assets/fonts/OpenSans_VariableFont_wdth_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
