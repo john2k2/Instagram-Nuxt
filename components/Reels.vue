@@ -33,7 +33,7 @@ const prev = () => {
       </ul>
     </div>
   </div>
-  <div class="absolute top-0 left-0 z-50 w-full flex justify-between items-center mt-24 bg-transparent px-2">
+  <div class="absolute top-0 left-0 z-50 w-full md:flex justify-between items-center mt-24 bg-transparent hidden px-2">
     <span
       @click="prev"
       class="pi pi-angle-left bg-white/90 rounded-full z-50 cursor-pointer"
