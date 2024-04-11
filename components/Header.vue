@@ -1,6 +1,6 @@
 <template>
-  <header class="bg-black py-4 border-blue-50/10 border-b-[0.1px] fixed w-full z-50">
-    <div class="mx-auto w-5/6 grid grid-cols-12 items-center justify-center gap-x-4">
+  <header class="bg-black py-4 border-blue-50/10 border-b-[0.1px] fixed w-full z-50 justify-between items-center">
+    <div class="mx-auto w-5/6 grid grid-cols-12 items-center gap-x-4">
       <div class="bg-[#262626] items-center rounded-md p-1 col-span-12 xs:col-span-11 grid grid-cols-12">
         <span
           class="pi pi-search text-center col-span-1 bg-transparent"
@@ -10,8 +10,8 @@
           type="text"
           placeholder="Buscar" />
       </div>
-      <div class="hidden xs:grid xs:grid-cols-1">
-        <span class="pi pi-heart" style="font-size: 1rem; color: white"></span>
+      <div class="hidden xs:grid xs:grid-cols-2">
+        <span class="pi pi-heart" style="font-size: 1.4rem; color: white"></span>
       </div>
     </div>
   </header>

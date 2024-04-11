@@ -6,7 +6,7 @@ import Post from "@/photos-data";
   <section class="bg-white mt-6 w-full">
     <div v-for="(insta, index) in Post" :key="index">
       <div>
-        <div class="flex items-center w-[90%] mx-auto gap-x-4 mb-2">
+        <div class="flex items-center w-full px-3 mx-auto gap-x-4 mb-2">
           <img :src="insta.avatar" alt="avatar" class="object-cover rounded-full w-8 h-8" />
           <span class="text-sm text-white font-bold">{{ insta.nombre }}</span>
           <div class="justify-end flex w-full">
@@ -18,7 +18,7 @@ import Post from "@/photos-data";
           <h2 class="text-sm text-red-500">{{ insta.usuario }}</h2>
         </div>
       </div>
-      <div class="w-[90%] mx-auto py-4 grid grid-cols-10 gap-x-2">
+      <div class="px-2 mx-auto py-4 grid grid-cols-10 gap-x-2">
         <div class="flex gap-x-4 col-span-8">
           <span class="pi pi-heart" style="font-size: 1.5rem; color: white"></span>
           <span class="pi pi-comment" style="font-size: 1.5rem; color: white"></span>
