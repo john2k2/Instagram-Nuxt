@@ -68,6 +68,14 @@
         "descripcion": "descripcion comentario 2",
         "fecha": "2021-01-01",
         "likes": 20
+      },
+      {
+        "id": 3,
+        "nombre": "comentario3",
+        "avatar": "img/asset 6.jpeg",
+        "descripcion": "descripcion comentario 3",
+        "fecha": "2021-01-01",
+        "likes": 30
       }
     ]
   }

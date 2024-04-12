@@ -16,12 +16,31 @@ import Save from "~/assets/icons/Save.vue";
             <span class="pi pi-ellipsis-h" style="font-size: 1rem; color: white"></span>
           </div>
         </div>
-        <div class="flex w-full justify-center items-center">
-          <div v-for="(img, index) in insta.imagen" :key="index" class="">
-            <img :src="img.url" alt="" class="object-cover w-full h-96" />
-          </div>
-          <h2 class="text-sm">{{ insta.usuario }}</h2>
-        </div>
+        <UCarousel
+          :items="insta.imagen"
+          :ui="{
+            item: 'basis-full',
+            indicators: {
+              wrapper:
+                'absolute flex items-center justify-center gap-3 bottom-4 inset-x-0 bg-transparent transition-all duration-300',
+              base: 'rounded-full size-2 ',
+              active: 'dark:bg-white size-3',
+              inactive: 'dark:bg-white/80 ',
+            },
+            arrows: {
+              prev: 'text-white text-3xl',
+              next: 'text-white text-3xl',
+            },
+          }"
+          :arrows="insta.imagen.length > 1 ? true : false"
+          :dots="false"
+          :infinite="true"
+          :indicators="insta.imagen.length > 1 ? true : false">
+          <template v-slot="{ item }">
+            <img :src="item.url" alt="" class="object-cover aspect-square w-full h-96" draggable="false" />
+            <h2 class="text-sm">{{ insta.usuario }}</h2>
+          </template>
+        </UCarousel>
       </div>
       <div class="px-3 mx-auto py-4 grid grid-cols-10 gap-x-2">
         <div class="flex gap-x-4 col-span-8">
