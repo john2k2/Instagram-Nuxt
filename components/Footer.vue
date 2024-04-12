@@ -15,7 +15,7 @@ import Home from "~/assets/icons/Home.vue";
         <Submit class="w-[1.5rem] col-span-2" />
         <Chat class="w-[1.5rem] col-span-2" />
         <div class="w-[1.5rem] col-span-2">
-          <img class="rounded-full w-full" src="/public/svg/asset 2.jpeg" alt="" />
+          <img class="rounded-full w-full" src="/public/img/asset 2.jpeg" alt="" />
         </div>
       </div>
     </div>

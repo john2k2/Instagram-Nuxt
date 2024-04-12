@@ -1,0 +1,46 @@
+<script setup>
+defineProps({
+  fill: {
+    type: String,
+    default: "white",
+  },
+});
+</script>
+
+<template>
+  <div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      aria-label="Cerrar"
+      class="x1lliihq x1n2onr6 x5n08af"
+      :fill="fill"
+      height="12"
+      role="img"
+      viewBox="0 0 24 24"
+      width="12">
+      <title>Cerrar</title>
+      <line
+        fill="none"
+        :stroke="fill"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        x1="21"
+        x2="3"
+        y1="3"
+        y2="21" />
+      <line
+        fill="none"
+        :stroke="fill"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        x1="21"
+        x2="3"
+        y1="21"
+        y2="3" />
+    </svg>
+  </div>
+</template>
+
+<style scoped></style>

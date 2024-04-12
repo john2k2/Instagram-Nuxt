@@ -21,7 +21,7 @@ const prev = () => {
 <template>
   <div class="text-white flex gap-x-4 overflow-scroll relative z-10">
     <div
-      class="mt-20 min-w-12 max-w-16 flex-shrink-0 trabsition-transform duration-300 ease-in-out"
+      class="mt-16 min-w-12 max-w-16 flex-shrink-0 trabsition-transform duration-300 ease-in-out"
       v-for="reel in data"
       :key="reel.id"
       :style="{ transform: `translateX(-${translate}%)` }">

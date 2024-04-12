@@ -2,56 +2,56 @@
   {
     "id": 2,
     "usuario": "yamilazeolla",
-    "imagen": "svg/asset 3.jpeg"
+    "imagen": "img/asset 3.jpeg"
   },
   {
     "id": 3,
     "usuario": "zahira.buscaza",
-    "imagen": "svg/asset 4.jpeg"
+    "imagen": "img/asset 4.jpeg"
   },
   {
     "id": 4,
     "usuario": "brinajouska",
-    "imagen": "svg/asset 5.jpeg"
+    "imagen": "img/asset 5.jpeg"
   },
   {
     "id": 5,
     "usuario": "aldiqb_",
-    "imagen": "svg/asset 6.jpeg"
+    "imagen": "img/asset 6.jpeg"
   },
   {
     "id": 6,
     "usuario": "naataashaa",
-    "imagen": "svg/asset 7.jpeg"
+    "imagen": "img/asset 7.jpeg"
   },
   {
     "id": 7,
     "usuario": "day_ana_",
-    "imagen": "svg/asset 8.jpeg"
+    "imagen": "img/asset 8.jpeg"
   },
   {
     "id": 8,
     "usuario": "",
-    "imagen": "svg/asset 9.jpeg"
+    "imagen": "img/asset 9.jpeg"
   },
   {
     "id": 9,
     "usuario": "John Doe",
-    "imagen": "svg/asset 10.jpeg"
+    "imagen": "img/asset 10.jpeg"
   },
   {
     "id": 10,
     "usuario": "Jane Doe",
-    "imagen": "svg/asset 11.jpeg"
+    "imagen": "img/asset 11.jpeg"
   },
   {
     "id": 11,
     "usuario": "John Doe",
-    "imagen": "svg/asset 12.jpeg"
+    "imagen": "img/asset 12.jpeg"
   },
   {
     "id": 12,
     "usuario": "Jane Doe",
-    "imagen": "svg/asset 13.jpeg"
+    "imagen": "img/asset 13.jpeg"
   }
 ]

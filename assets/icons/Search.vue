@@ -1,0 +1,43 @@
+<script setup>
+defineProps({
+  fill: {
+    type: String,
+    default: "white",
+  },
+});
+</script>
+
+<template>
+  <div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      aria-label="Buscar"
+      class="x1lliihq x1n2onr6 x1cp0k07"
+      :fill="fill"
+      height="16"
+      role="img"
+      viewBox="0 0 24 24"
+      width="16">
+      <title>Buscar</title>
+      <path
+        d="M19 10.5A8.5 8.5 0 1 1 10.5 2a8.5 8.5 0 0 1 8.5 8.5Z"
+        fill="none"
+        :stroke="fill"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2" />
+      <line
+        fill="none"
+        :stroke="fill"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        x1="16.511"
+        x2="22"
+        y1="16.511"
+        y2="22" />
+    </svg>
+  </div>
+</template>
+
+<style scoped></style>
